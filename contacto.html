@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/571ace2bcd.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__bounce">Tu teclado</h1>
+            <nav>
+                <a href="index.html" class="">Inicio</a>
+                <a href="acerca.html" class="">Acerca de</a>
+                <a href="contacto.html" class="">Contacto</a>
+            </nav>
+        </header>
+        <main>
+            <h2 class="centro">Contacto</h2>
+            <form
+                action=""
+            >
+                <fieldset>
+                    <legend>Formulario</legend>
+                    <div>
+                        <label for="nombre">Nombres:</label>
+                        <input type="text" name="nombre" id="nombre" />
+                    </div>
+                    <div>
+                        <label for="email">Correo electronico:</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div>
+                        <label for="textarea">Mensaje:</label>
+                    </div>
+                    <textarea
+                        name=""
+                        id="textarea"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                    <div>
+                        <button type="submit" onclick="return enviarformulario()">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer class="centro">
+            <p>Enlaces a las redes sociales</p>
+            <!-- icono twitter -->
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <!-- icono face -->
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <!-- icono pinter -->
+            <a href="https://www.pinterest.com" target="_blank">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+            </a>
+            <!-- icono instagram -->
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <!-- icono linkedin -->
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <p>Derechos reservados @2021</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
