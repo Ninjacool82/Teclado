@@ -26,39 +26,35 @@
             <h1 class="animate__animated animate__bounce">Tu teclado</h1>
             <nav>
                 <a href="index.html" class="">Inicio</a>
-                <a href="acerca.html" class="">Acerca de</a>
+                <a href="acerca.html" class="">Acerca</a>
                 <a href="contacto.html" class="">Contacto</a>
             </nav>
         </header>
         <main>
             <h2 class="centro">Contacto</h2>
-            <form
-                action=""
-            >
+            <form action="">
                 <fieldset>
-                    <legend>Formulario</legend>
+                    <legend>formulario</legend>
                     <div>
-                        <label for="nombre">Nombres:</label>
-                        <input type="text" name="nombre" id="nombre" />
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre">
                     </div>
                     <div>
-                        <label for="email">Correo electronico:</label>
-                        <input type="email" name="email" id="email" />
+                        <label for="correo">Correo:</label>
+                        <input type="correo" name="correo" id="correo">
                     </div>
                     <div>
-                        <label for="textarea">Mensaje:</label>
+                        <div>
+                            <label for="textarea">Mensaje:<label>
+                        </div>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                     </div>
-                    <textarea
-                        name=""
-                        id="textarea"
-                        cols="30"
-                        rows="10"
-                    ></textarea>
                     <div>
-                        <button type="submit" onclick="return enviarformulario()">Enviar</button>
+                        <input type="button" onclick="return enviarFormulario()" value="Enviar">
                     </div>
                 </fieldset>
             </form>
+            <div id="error"></div>
         </main>
         <footer class="centro">
             <p>Enlaces a las redes sociales</p>
